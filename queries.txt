@@ -1,0 +1,18 @@
+Sample Queries
+
+1. Insert a new customer into the database.
+2. Delete an existing employee from the database.
+3. Update the description of an existing repair order.
+4. List all the repair orders belonging to a given vehicle, along with their dates when each
+repair was originated and completed.
+5. List the details of the line items including the description, price, and quantity for the invoice
+of a given repair order.
+6. List the repair orders completed between June 20012 and December 20021, sorted by the repair
+order numbers.
+7. List the details of all the line items of a given procedure.
+8. List the total number of procedures required by each repair order in decending order, along
+with the procedure description.
+9. List the name of the employee who recorded more than the average number of invoices,
+together with the number of invoices he/she recorded.
+10. For a particular invoice, list the odometer mileages (in and out), payment information, and
+the vehicle information.
