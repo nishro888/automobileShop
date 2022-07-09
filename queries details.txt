@@ -1,0 +1,12 @@
+Database lab topics to be present in queries
+
+1. Alter (add, edit, rename, delete a table column)
+2. Select Group by, Order by (asc, desc);
+3. Where, Having
+4. count , min , max, sum, average functions
+5. Sub query, union all, union , intersect, minus
+6. join, natural join, cross join, outer join
+7. 
+8. 
+9. 
+10.

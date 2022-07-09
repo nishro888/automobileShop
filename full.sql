@@ -265,7 +265,6 @@ INSERT INTO invoice VALUES(111109,658321,000010,1122, null ,null, null,'repair',
 
 
 
-/*insert*/
 INSERT INTO vehicle VALUES(345113,1000320,'Honda','Accord', 1995, 910033, 910041);
 INSERT INTO vehicle VALUES(224455,1000322,'Ford','Escort', 1993, 200001, 200009);
 
@@ -283,18 +282,4 @@ INSERT INTO lineitem VALUES(01,'Oil Change - LABOR',30.00,01,323);
 INSERT INTO lineitem VALUES(02,'Oil Change - PARTS',20.00,01,323);
 INSERT INTO invoice VALUES(311109,224455,323,1122, 0.0 ,'08-NOV-2012', '08-NOV-2012','paid',1000322);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*queries*/
 
