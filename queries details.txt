@@ -6,7 +6,17 @@ Database lab topics to be present in queries
 4. count , min , max, sum, average functions
 5. Sub query, union all, union , intersect, minus
 6. join, natural join, cross join, outer join
-7. 
+7. Loop, Cursor
+8. procedure, function
+9. trigger
+10.date
+
+
+1. view all the data into a table
+2. insert a new column into a table
+3. delete an existing employee from the database
+4. count employee numbers which salary is atleast a given number 
+5. List all the repair orders belonging to a given vehicle, along with their dates when each repair was originated and completed.
+6. List the repair orders completed between June 20012 and December 20021, sorted by the repair order numbers.
+7. List the details of all the line items of a given procedure.
 8. 
-9. 
-10.
