@@ -16,7 +16,18 @@ CREATE TABLE employee (
 	CONSTRAINT pk_employee PRIMARY KEY ( empid )
  ) ;
  
- 
+CREATE OR REPLACE TRIGGER check_salary BEFORE INSERT OR UPDATE ON employee
+FOR EACH ROW
+DECLARE
+	salary_min constant number(8,2) := 1000.00;
+	salary_max constant number(8,2) := 200000.00;
+BEGIN
+	IF :new.salary > salary_max OR :new.salary<salary_min THEN
+	RAISE_APPLICATION_ERROR(-20000, 'New salary is not in range');
+	END IF;
+END;
+/
+
 CREATE TABLE customer ( 
 	customerid           int  NOT NULL          ,
 	firstname            varchar(20)  NOT NULL  ,

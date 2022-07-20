@@ -13,10 +13,12 @@ Database lab topics to be present in queries
 
 
 1. view all the data into a table
-2. insert a new column into a table
+2. alter column into a table
 3. delete an existing employee from the database
-4. count employee numbers which salary is atleast a given number 
-5. List all the repair orders belonging to a given vehicle, along with their dates when each repair was originated and completed.
-6. List the repair orders completed between June 20012 and December 20021, sorted by the repair order numbers.
-7. List the details of all the line items of a given procedure.
-8. 
+4. count employee numbers which salary is atleast a given number and show their list
+5. List all the repair orders belonging to a given customer, along with their dates when each repair was originated and completed.
+6. List the repair orders completed between two dates, sorted by the repair order numbers.
+7. List the details of all the line items of every procedures of a given repairorder.
+8. List the name of the employee who recorded more than a given number of invoices,together with the number of invoices he/she recorded.
+9. List the total number of procedures required by each repair order in decending order, alongwith the procedure description.
+10.For a particular invoice, list the odometer mileages (in and out), payment information, and the vehicle information.
