@@ -163,6 +163,14 @@ void query8()
     output.close();
 };
 
+void query9()
+{
+    ofstream output("output.sql");
+    output << "create view new_view as select empid, firstname, lastname from employee ;\n   ";
+    output << "select * from new_view;";
+    output.close();
+}
+
 void exit()
 {
     cout << "Thanks for using the system. Hasta la Vista.../n";
@@ -183,6 +191,7 @@ int main()
     cout << "6: List the repair orders completed between two dates, sorted by the repair order numbers.\n";
     cout << "7: List the details of all the line items of every procedures of a given repairorder.\n";
     cout << "8: List the name of the employee who recorded more than a given number of invoices,together with the number of invoices he/she recorded.\n";
+    cout << "9: show view for table employee with empid, firstname, lastname\n";
     cout << "0: exit\n";
     cout << "Select a query: ";
     cin >> q;
@@ -194,6 +203,7 @@ int main()
     else if(q==6)   query6();
     else if(q==7)   query7();
     else if(q==8)   query8();
+    else if(q==9)   query9();
     else if(q==0)   exit();
     if(task)goto query;
     else return 0;

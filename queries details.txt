@@ -20,5 +20,4 @@ Database lab topics to be present in queries
 6. List the repair orders completed between two dates, sorted by the repair order numbers.
 7. List the details of all the line items of every procedures of a given repairorder.
 8. List the name of the employee who recorded more than a given number of invoices,together with the number of invoices he/she recorded.
-9. List the total number of procedures required by each repair order in decending order, alongwith the procedure description.
-10.For a particular invoice, list the odometer mileages (in and out), payment information, and the vehicle information.
+9. create view for employee table with empid, firstname, lastname.
